@@ -9,8 +9,7 @@ import SwiftUI
 
 struct RowView: View {
     
-    @ViewBuilder
-    var body: some View {
+    @ViewBuilder var body: some View {
         #if os(iOS)
         content
             .listStyle(InsetGroupedListStyle())

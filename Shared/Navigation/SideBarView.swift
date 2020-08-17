@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct SideBarView: View {
-    var body: some View {
+    
+    @ViewBuilder var body: some View {
         NavigationView {
             #if os(iOS)
             content
                 .navigationTitle("SwiftUI")
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Image(systemName: "gear")
+                    }
+                }
             #else
             content
                 .frame(minWidth: 300, idealWidth: 350, maxWidth: 400)
+                .toolbar {
+                    ToolbarItem(placement: .automatic) {
+                        Image(systemName: "gear")
+                    }
+                }
             #endif
         }
     }

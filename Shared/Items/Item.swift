@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
-//  Shared
+//  Item.swift
+//  MultiplatformApplication
 //
 //  Created by Ramill Ibragimov on 17.08.2020.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct Item: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 4.0) {
             Spacer()
@@ -33,12 +33,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Item_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            ContentView()
-            ContentView()
-                .preferredColorScheme(.dark)
-        }
+        Item()
     }
 }
