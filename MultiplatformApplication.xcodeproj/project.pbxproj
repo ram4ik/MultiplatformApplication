@@ -13,6 +13,10 @@
 		1D6F99A624EAFCA8001C152C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6F999124EAFCA3001C152C /* ContentView.swift */; };
 		1D6F99A724EAFCA8001C152C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6F999224EAFCA7001C152C /* Assets.xcassets */; };
 		1D6F99A824EAFCA8001C152C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6F999224EAFCA7001C152C /* Assets.xcassets */; };
+		1D6F99B224EB0655001C152C /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6F99B124EB0655001C152C /* Row.swift */; };
+		1D6F99B324EB0655001C152C /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6F99B124EB0655001C152C /* Row.swift */; };
+		1D6F99B524EB09D4001C152C /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6F99B424EB09D4001C152C /* RowView.swift */; };
+		1D6F99B624EB09D4001C152C /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6F99B424EB09D4001C152C /* RowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,8 @@
 		1D6F999F24EAFCA8001C152C /* MultiplatformApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplatformApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6F99A124EAFCA8001C152C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D6F99A224EAFCA8001C152C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		1D6F99B124EB0655001C152C /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		1D6F99B424EB09D4001C152C /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 				1D6F999024EAFCA3001C152C /* MultiplatformApplicationApp.swift */,
 				1D6F999124EAFCA3001C152C /* ContentView.swift */,
 				1D6F999224EAFCA7001C152C /* Assets.xcassets */,
+				1D6F99B124EB0655001C152C /* Row.swift */,
+				1D6F99B424EB09D4001C152C /* RowView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -188,7 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D6F99A524EAFCA8001C152C /* ContentView.swift in Sources */,
+				1D6F99B224EB0655001C152C /* Row.swift in Sources */,
 				1D6F99A324EAFCA8001C152C /* MultiplatformApplicationApp.swift in Sources */,
+				1D6F99B524EB09D4001C152C /* RowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D6F99A624EAFCA8001C152C /* ContentView.swift in Sources */,
+				1D6F99B324EB0655001C152C /* Row.swift in Sources */,
 				1D6F99A424EAFCA8001C152C /* MultiplatformApplicationApp.swift in Sources */,
+				1D6F99B624EB09D4001C152C /* RowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
